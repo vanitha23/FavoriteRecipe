@@ -1,0 +1,116 @@
+*
+{
+	padding: 5px;
+	background-color: #ffb3b3;
+	margin: 2px 2px 2px 2px solid black;
+}
+
+body
+{
+	margin: 5px 5px 5px 5px;
+	border: solid 2px black;
+
+}
+
+h1
+{
+	text-align: center;
+	color: #4d0026;
+	font-family: Arial;
+	text-decoration: underline;
+	font-style: bold;
+	transition: color 2s;
+	transition: text-decoration 2s;
+	transition: font-size 2s;
+}
+
+h1:hover
+{
+	color: #1a1aff;
+	text-decoration: none;
+	font-size: 3em;
+}
+
+#ingredients h2
+{
+	color: red;
+	text-decoration: underline;
+	font-style: bold;
+	transition: font-size 2s;
+}
+
+.ingredientlist
+{
+	color: blue;
+	font-style: italic;
+	font-style: bold;
+	transition: font-size 2s;
+	transition: font-family 2s;
+}
+
+.list:hover
+{
+	font-family: Verdana;
+	font size: 20px;
+}
+
+#procedure h2
+{
+	color: green;
+	text-decoration: underline;
+	font-style: bold;
+	transition: font-size 2s;
+}
+
+.steps
+{
+	color: #cc0000;
+	font-style: italic;
+	font-style: bold;
+	transition: font-family 2s;
+	transition: font-size 2s;
+}
+
+img
+{
+	border: solid 1px black;
+	border-radius: 10px;
+	height: 200px;
+	width: 200px;
+	transition: box-shadow 3s;
+	transition: border 3s;
+	transition: -ms-transform 3s; 
+    transition: -webkit-transform 3s; 
+    transition: transform 3s;
+}
+
+#procedure img:hover
+{
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    box-shadow: 20px 20px 10px #ff3385;
+    border: solid 2px #ff3385;
+}
+
+h2:hover
+{
+	font-size: 3em;
+}
+
+.steps:hover
+{
+	font-family: Verdana;
+	font size: 20px;
+}
+
+.highlight
+{
+	background-color: none;
+}
+
+
+
+
+
+
